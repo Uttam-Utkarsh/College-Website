@@ -17,4 +17,13 @@ function slider() {
   });
 }
 
+function swiper1(){
+  var swiper2 = new Swiper(".mySwiper2", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+  });
+}
+
+
 slider();
+swiper1();

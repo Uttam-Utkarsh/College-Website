@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 html,
@@ -237,13 +239,77 @@ body {
 }
 .page5{
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  
 }
 .onlyforcolor1{
   width: 100%;
   height: 8%;
   background-color: rgb(38, 95, 100);
 }
+.page5div1{
+  width: 100%;
+  height: calc((100vh - 8%) / 2.5);
+  /* background-color: thistle; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.page5div1 .part{
+  padding: 0px 20px ;
+  border-right: 1px solid black;
+  
+}
+.big{
+  font-size: 5rem;
+  font-weight: 100;
+  color: rgba(248, 16, 16, 0.616);
+}
+
+.page5div2{
+  width: 100%;
+  height: calc(100vh - ((100vh - 8%) / 2.04));
+  /* background-color: rgb(220, 212, 220); */
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  background-color: black;
+  color: #fdfafa;
+  text-transform: uppercase;
+}
+.page5div2 .part1{
+  width: 40%;
+  height: 100%;
+  padding: 60px 80px;
+  font-size: 4px;
+  /* background-color: yellow; */
+}
+.page5div2 .part2{
+  width: 60%;
+  height: 100%;
+  padding: 50px 60px;
+  /* background-color: forestgreen; */
+}
+.page5div2 .part2 h1{
+  font-size: 4rem;
+  line-height: 4rem;
+} 
+
+.containimg{
+  width: 100%;
+  height: 80vh;
+  /* background-color:#343a40 ; */
+
+}
+
+.containimg img{
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  object-position: center;
+}
+
 .myfooter {
   width: 100%;
   height: 200px;

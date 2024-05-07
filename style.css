@@ -1,42 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-  font-family: Georgia, 'Times New Roman', Times, serif
-}
 
-html,
-body {
-  width: 100%;
-  height: 100vh;
-}
 
-.page1 {
-  width: 100%;
-  height: 100vh;
-  background-image: url(./image/img1.jpg);
-  /* background-color: aqua; */
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* overflow: hidden; */
-}
 
-.nav1 {
-  height: 30px;
-  color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #343a40;
-  border-bottom: 1px solid white;
-}
-.nav1 a {
-  text-decoration: none;
-  color: red;
-}
+
+
+
 
 @media (min-width: 200px) {
   .logo {
@@ -78,7 +45,7 @@ body {
 }
 
 .Quotes h1 {
-  font-size: 2.5rem;
+  font-size: 5vh;
   text-transform: uppercase;
   font-weight: 500;
   line-height: 45px;
@@ -114,7 +81,7 @@ body {
 }
 
 .acdemics h1 {
-  font-size: 5rem;
+  font-size: 9vh;
   font-weight: 500;
 }
 
